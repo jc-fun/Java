@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/_001_enum/_001_enum.iml" filepath="$PROJECT_DIR$/_001_enum/_001_enum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_002_wrapper/_002_wrapper.iml" filepath="$PROJECT_DIR$/_002_wrapper/_002_wrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_003_string/_003_string.iml" filepath="$PROJECT_DIR$/_003_string/_003_string.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_004_stream_file_io/_004_stream_file_io.iml" filepath="$PROJECT_DIR$/_004_stream_file_io/_004_stream_file_io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/review.iml" filepath="$PROJECT_DIR$/review.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Axios发送普通的参数值给服务器端</title>
+        <script charset="UTF-8" src="script/vue.js"></script>
+        <script charset="UTF-8" src="script/axios.js"></script>
+    </head>
+    <body>
+
+        <div id="div1">
+            <label>
+                uname:<input type="text" v-model="uname"/>
+            </label><br/>
+            <label>
+                <input type="text" v-model="pwd"/>
+            </label>
+            <button @click="axios01">点击发送请求</button>
+        </div>
+
+        <script>
+
+            let vm = new Vue({
+                el: "#div1",
+                data: {
+                    msg: 1,
+                    uname: "lina",
+                    pwd: "ok"
+                },
+                methods: {
+                    axios01() {
+                        axios({
+                            method: "post",
+                            url: "axios01.do",
+                            params: {
+                                uname: this.uname,
+                                pwd: this.pwd
+                            }
+                        }).then(value => {
+                            console.log(value);
+                        }).catch(reason => {
+                            console.log(reason)
+                        })
+                    }
+                }
+            })
+        </script>
+    </body>
+</html>

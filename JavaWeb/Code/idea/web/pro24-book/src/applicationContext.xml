@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE beans [
+        <!ELEMENT beans (bean*)>
+        <!ELEMENT bean (property*)>
+        <!ELEMENT property (#PCDATA)>
+
+        <!ATTLIST bean id ID #REQUIRED>
+        <!ATTLIST bean class CDATA #IMPLIED>
+        <!ATTLIST property name CDATA #IMPLIED>
+        <!ATTLIST property ref IDREF #IMPLIED>
+        ]>
+
+
+<beans>
+    <!-- DAO -->
+    <bean id="userDAO" class="com.urain.book.dao.impl.UserDAOImpl"/>
+
+
+    <!-- service -->
+    <bean id="userService" class="com.urain.book.service.impl.UserServiceImpl">
+        <property name="userDAO" ref="userDAO"/>
+    </bean>
+
+
+    <!-- controller -->
+    <bean id="page" class="com.urain.myssm.myspringmvc.PageController"/>
+
+    <bean id="user" class="com.urain.book.controller.UserController">
+        <property name="userService" ref="userService"/>
+    </bean>
+
+
+
+</beans>

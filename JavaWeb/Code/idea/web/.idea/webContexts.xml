@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/pro11-fruit1.6-pagination/web/index.html" value="file://$PROJECT_DIR$/pro11-fruit1.6-pagination/web" />
+        <entry key="file://$PROJECT_DIR$/pro22-qqzone1.0/web/frames/left.html" value="file://$PROJECT_DIR$/pro22-qqzone1.0/web/frames" />
+        <entry key="file://$PROJECT_DIR$/pro25-book/web/WEB-INF/pages/cart/cart.html" value="file://$PROJECT_DIR$/pro25-book/web/WEB-INF/pages/cart" />
+        <entry key="file://$PROJECT_DIR$/pro25-book/web/WEB-INF/pages/index.html" value="file://$PROJECT_DIR$/pro25-book/web/WEB-INF/pages" />
+        <entry key="file://$PROJECT_DIR$/pro27-book-regist-cart/web/WEB-INF/pages/user/regist.html" value="file://$PROJECT_DIR$/pro27-book-regist-cart/web/WEB-INF/pages/user" />
+        <entry key="file://$PROJECT_DIR$/pro28-vue-axios-json/web/demo09.html" value="file://$PROJECT_DIR$/pro28-vue-axios-json/web" />
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
+    <fullyQualifiedTypeName name="com.supertain.java.ArrayTest"/>
+    <fullyQualifiedTypeName name="java.lang.OutOfMemoryError"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="com.supertain.project2.service.CustomerList"/>
+    <fullyQualifiedTypeName name="com.supertain.project2.bean.Customer"/>
+    <fullyQualifiedTypeName name="com.supertain.project2.util.CMUtility"/>
+    <fullyQualifiedTypeName name="com.supertain.overwrite.Person"/>
+    <fullyQualifiedTypeName name="com.supertain.order.Order"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.Driver"/>
+    <fullyQualifiedTypeName name="com.mysql.jdbc.Driver"/>
+    <fullyQualifiedTypeName name="com.urain1.connection.ConnectionTest"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="com.urain3.bean.Order"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.urain.util.JDBCUtils"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="com.urain3.bean.Customer"/>
+    <fullyQualifiedTypeName name="com.urain.utils.JDBCUtils"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="com.urain3.dao.CustomerDAOImpl"/>
+    <fullyQualifiedTypeName name="com.urain4.utils.JDBCUtils"/>
+</qualifiedTypeNameHistroy>

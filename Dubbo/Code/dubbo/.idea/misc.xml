@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/link-consumer-002" />
+    <file type="web" url="file://$PROJECT_DIR$/link-consumer-005" />
+    <file type="web" url="file://$PROJECT_DIR$/link-interface-003" />
+    <file type="web" url="file://$PROJECT_DIR$/link-userservice-provider-001" />
+    <file type="web" url="file://$PROJECT_DIR$/link-userservice-provider-004" />
+    <file type="web" url="file://$PROJECT_DIR$/zk-consumer-008" />
+    <file type="web" url="file://$PROJECT_DIR$/zk-multi-consumer-010" />
+    <file type="web" url="file://$PROJECT_DIR$/zk-userservice-multi-provider-009" />
+    <file type="web" url="file://$PROJECT_DIR$/zk-userservice-provider-007" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/link-userservice-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/link-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/link-consumer-002/pom.xml" />
+        <option value="$PROJECT_DIR$/link-userservice-provider-001/pom.xml" />
+        <option value="$PROJECT_DIR$/link-interface-003/pom.xml" />
+        <option value="$PROJECT_DIR$/link-userservice-provider-004/pom.xml" />
+        <option value="$PROJECT_DIR$/link-consumer-005/pom.xml" />
+        <option value="$PROJECT_DIR$/zk-interface-006/pom.xml" />
+        <option value="$PROJECT_DIR$/zk-userservice-provider-007/pom.xml" />
+        <option value="$PROJECT_DIR$/zk-consumer-008/pom.xml" />
+        <option value="$PROJECT_DIR$/zk-userservice-multi-provider-009/pom.xml" />
+        <option value="$PROJECT_DIR$/zk-multi-consumer-010/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

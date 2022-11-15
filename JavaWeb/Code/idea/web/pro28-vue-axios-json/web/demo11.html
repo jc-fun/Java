@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Axios发送异步请求给服务器端，服务器端响应JSON格式的数据给客户端</title>
+        <script charset="UTF-8" src="script/vue.js"></script>
+        <script charset="UTF-8" src="script/axios.js"></script>
+    </head>
+    <body>
+
+        <div id="div1">
+            <label>
+                uname:<input type="text" v-model="uname"/>
+            </label><br/>
+            <label>
+                <input type="text" v-model="pwd"/>
+            </label>
+            <button @click="axios03">点击发送请求</button>
+        </div>
+
+        <script>
+
+            let vm = new Vue({
+                el: "#div1",
+                data: {
+                    msg: 1,
+                    uname: "lina",
+                    pwd: "ok"
+                },
+                methods: {
+                    async axios03() {
+                        await axios({
+                            method: "post",
+                            url: "axios03.do",
+                            data: {
+                                uname: this.uname,
+                                pwd: this.pwd
+                            }
+                        }).then(res => {
+                            this.uname = res.data.uname;
+                            this.pwd = res.data.pwd;
+                        }).catch(reason => {
+                            console.log(reason)
+                        })
+                    }
+                }
+            })
+        </script>
+    </body>
+</html>
