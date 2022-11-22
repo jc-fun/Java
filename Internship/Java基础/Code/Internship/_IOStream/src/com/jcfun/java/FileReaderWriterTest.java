@@ -2,10 +2,7 @@ package com.jcfun.java;
 
 import org.junit.Test;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 
 /**
  * @ClassName: FileReaderWriterTest
@@ -106,5 +103,29 @@ public class FileReaderWriterTest {
         fw.close();
         fr.close();
     }
+
+
+    @Test
+    public void testFileInputOutputStream() throws Exception {
+
+        File srcFile = new File("miku.jpg");
+        File destFile = new File("miku1.jpg");
+
+        FileInputStream fileInputStream = new FileInputStream(srcFile);
+        FileOutputStream fileOutputStream = new FileOutputStream(destFile);
+
+        byte[] buffer = new byte[5];
+        int len;
+        while((len = fileInputStream.read(buffer)) != -1) {
+            fileOutputStream.write(buffer, 0, len);
+        }
+
+        fileOutputStream.close();
+        fileInputStream.close();
+
+    }
+
+
+
 
 }
