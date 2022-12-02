@@ -49,4 +49,18 @@ public class Person extends Creature<String> implements Comparable<String>, MyIn
     public int compareTo(String o) {
         return 0;
     }
+
+    private static void showDest() {
+        System.out.println("我是一个niubility的人");
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+            "name='" + name + '\'' +
+            ", age=" + age +
+            ", id=" + id +
+            ", weight=" + weight +
+            '}';
+    }
 }

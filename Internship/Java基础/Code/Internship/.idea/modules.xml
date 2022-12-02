@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/_reflection/_reflection.iml" filepath="$PROJECT_DIR$/_reflection/_reflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/_socket/_socket.iml" filepath="$PROJECT_DIR$/_socket/_socket.iml" />
       <module fileurl="file://$PROJECT_DIR$/_thread/_thread.iml" filepath="$PROJECT_DIR$/_thread/_thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdk8/jdk8.iml" filepath="$PROJECT_DIR$/jdk8/jdk8.iml" />
     </modules>
   </component>
 </project>
